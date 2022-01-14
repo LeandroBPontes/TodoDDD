@@ -1,0 +1,3 @@
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.0\Todo.Domain.Infra.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.0\Todo.Domain.Infra.AssemblyInfo.cs
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.0\Todo.Domain.Infra.csproj.CoreCompileInputs.cache

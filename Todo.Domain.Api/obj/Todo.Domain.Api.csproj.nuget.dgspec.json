@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
+    "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
+    "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Api\\Todo.Domain.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "projectName": "Todo.Domain.Api",
-        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
+        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Api\\Todo.Domain.Api.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Api\\obj\\",
+        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -22,21 +22,21 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
-                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
+              "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj"
               },
-              "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+              "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -48,8 +48,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,18 +66,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
+    "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "projectName": "Todo.Domain.Infra",
-        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
+        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\Todo.Domain.Infra.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain.Infra\\obj\\",
+        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain.Infra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -82,18 +96,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
-                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+              "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj"
               }
             }
           }
@@ -105,8 +119,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -117,18 +131,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+    "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj",
         "projectName": "Todo.Domain",
-        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "projectPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\Todo.Domain.csproj",
         "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\Todo.Domain\\obj\\",
+        "outputPath": "C:\\Users\\leand\\Desktop\\Todo\\TodoDDD\\Todo.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
@@ -139,15 +158,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -158,8 +177,14 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Flunt": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -170,6 +195,11 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
         }
       }

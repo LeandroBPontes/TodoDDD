@@ -10,8 +10,8 @@ namespace Todo.Domain.Entities {
 
     public abstract class Entity : IEquatable<Entity>
         {
-        public Guid Id { get; private set; }
-        public Entity (Guid id) {
+        public Guid Id { get; set; }
+        public Entity () {
             Id = Guid.NewGuid();
         }
 

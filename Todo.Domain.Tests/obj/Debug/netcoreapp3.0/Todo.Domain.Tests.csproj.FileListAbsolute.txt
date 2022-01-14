@@ -1,0 +1,4 @@
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Tests\obj\Debug\netcoreapp3.0\Todo.Domain.Tests.csproj.AssemblyReference.cache
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Tests\obj\Debug\netcoreapp3.0\Todo.Domain.Tests.AssemblyInfoInputs.cache
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Tests\obj\Debug\netcoreapp3.0\Todo.Domain.Tests.AssemblyInfo.cs
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Tests\obj\Debug\netcoreapp3.0\Todo.Domain.Tests.csproj.CoreCompileInputs.cache
