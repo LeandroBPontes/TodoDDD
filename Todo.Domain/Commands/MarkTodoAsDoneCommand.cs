@@ -20,9 +20,11 @@ namespace Todo.Domain.Commands {
         public string User { get; set; }
 
         public void Validate() {
-            new Contract()
+            AddNotifications(
+           new Contract()
                  .Requires()
-                 .HasMinLen(User, 6, "User", "Usuário Inválido!");
+                 .HasMinLen(User, 6, "User", "Usuário Inválido!")
+            );
         }
     }
 }

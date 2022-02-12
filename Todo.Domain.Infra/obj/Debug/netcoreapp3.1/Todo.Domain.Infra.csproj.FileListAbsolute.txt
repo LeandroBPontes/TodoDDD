@@ -2,3 +2,11 @@ C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\To
 C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.AssemblyInfoInputs.cache
 C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.AssemblyInfo.cs
 C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.csproj.CoreCompileInputs.cache
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.deps.json
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.dll
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.Infra.pdb
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.dll
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.pdb
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.csproj.CopyComplete
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.dll
+C:\Users\leand\Desktop\Todo\TodoDDD\Todo.Domain.Infra\obj\Debug\netcoreapp3.1\Todo.Domain.Infra.pdb
